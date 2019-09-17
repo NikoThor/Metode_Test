@@ -71,6 +71,5 @@ F.eks. skal kaldet midterst( 6, 10, 8 ) returnere 8.
             System.out.println(c);
             return c;
         }
-
     }
 }
