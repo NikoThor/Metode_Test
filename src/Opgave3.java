@@ -8,6 +8,20 @@ F.eks. skal kaldet midterst( 6, 10, 8 ) returnere 8.
         // input : a = 6, b = 10, c = 8
         // forventet output = 8
 
+        //input
+        int a = 6;
+        int b = 10;
+        int c = 8;
+
+        //forventet output
+        int output = midterst(a, b, c);
+
+        if (output == 8){
+            System.out.println("pass");
+        }
+        else {
+            System.out.println("fail");
+        }
         //test case hvor første værdi er midterst
         //input: a = 3, b = 7, c = 2
         // forventet output = 3
@@ -17,6 +31,5 @@ F.eks. skal kaldet midterst( 6, 10, 8 ) returnere 8.
         //forventet output 25
 
 
-    }
-
+     }
 }
