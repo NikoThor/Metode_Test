@@ -32,4 +32,15 @@ F.eks. skal kaldet midterst( 6, 10, 8 ) returnere 8.
 
 
      }
+
+     static int midterst(int a, int b, int c) {
+        if (a < b && b < c || a > b && b > c) {
+            System.out.println(b);
+            return b;
+     } else if ( b < a && a < c || b > a && a > c) {
+            return a;
+        } else
+            return c;
+
+    }
 }
